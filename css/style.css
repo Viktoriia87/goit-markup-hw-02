@@ -1,0 +1,217 @@
+:root {
+  --ptimary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --background-color: #ffffff;
+  --main-font: Roboto, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  color: var(--ptimary-text-color);
+  background-color: var(--background-color);
+  font-family: var(--main-font);
+}
+/*====Header====*/
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.span-logo {
+  color: #2196f3;
+}
+/* ====END Header==== */
+.menu-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.menu-link.current {
+  color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.mail-link {
+  color: var(--ptimary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+.tel-link {
+  color: var(--ptimary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+/*====Hero====*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/* ====End Hero====*/
+
+/* ====Advantages section==== */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.advantages-discription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--ptimary-text-color);
+}
+/* ====End Advantages section==== */
+
+/* ====Servise section==== */
+.servise-section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* ====End Servise section==== */
+
+/* ====Team section===== */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.mamber-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.mamber-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-item {
+  background-color: var(--background-color);
+}
+/*====End Team section====*/
+
+/* ====Footer==== */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.span-logo {
+  color: #2196f3;
+}
+.adress-link {
+  color: var(--ptimary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.location {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ====End Footer==== */
+
+/* Portfolio */
+/*====Portfolio section==== */
+
+.filter-button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.project-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-decr {
+  color: var(--ptimary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/*====End Portfolio section==== */

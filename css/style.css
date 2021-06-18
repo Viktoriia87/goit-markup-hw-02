@@ -3,8 +3,9 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --background-color: #ffffff;
   --main-font: Roboto, sans-serif;
+  --dark-grey-background-color: #2f303a;
+  --light-grey-background-color: #f5f4fa;
 }
 
 .link {
@@ -15,12 +16,12 @@
 }
 body {
   color: var(--ptimary-text-color);
-  background-color: var(--background-color);
+  background-color: var(--primary-white-color);
   font-family: var(--main-font);
 }
 /*====Header====*/
 .logo {
-  color: #000000;
+  color: var(--title-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -28,11 +29,11 @@ body {
   letter-spacing: 0.03em;
 }
 .span-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* ====END Header==== */
 .menu-link {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,7 +71,7 @@ body {
 
 /*====Hero====*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--dark-grey-background-color);
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -128,7 +129,7 @@ body {
 
 /* ====Team section===== */
 .team-section {
-  background-color: #f5f4fa;
+  background-color: var(--light-grey-background-color);
 }
 .team-section-title {
   color: var(--title-text-color);
@@ -157,10 +158,10 @@ body {
 
 /* ====Footer==== */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--dark-grey-background-color);
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -168,7 +169,7 @@ body {
   letter-spacing: 0.03em;
 }
 .span-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .adress-link {
   color: var(--ptimary-text-color);
@@ -192,13 +193,16 @@ body {
 /*====Portfolio section==== */
 
 .filter-button {
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color: var(--light-grey-background-color);
 }
 .filter-button:hover,
 .filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.project-item {
+  background-color: var(--primary-white-color);
 }
 .project-title {
   color: var(--title-text-color);

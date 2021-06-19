@@ -6,6 +6,7 @@
   --main-font: Roboto, sans-serif;
   --dark-grey-background-color: #2f303a;
   --light-grey-background-color: #f5f4fa;
+  --rgba-grey-color: rgba(255, 255, 255, 0.6);
 }
 
 .link {
@@ -107,6 +108,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-transform: uppercase;
 }
 .advantages-discription {
   font-weight: 400;
@@ -172,7 +174,7 @@ body {
   color: var(--accent-color);
 }
 .adress-link {
-  color: var(--ptimary-text-color);
+  color: var(--rgba-grey-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -195,6 +197,13 @@ body {
 .filter-button {
   color: var(--title-text-color);
   background-color: var(--light-grey-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
